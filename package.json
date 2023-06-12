@@ -1,0 +1,24 @@
+{
+  "name": "ne-iot",
+  "version": "1.0.0",
+  "description": "Nova Explorers Embedded Nodejs Program",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "drone"
+  ],
+  "author": "Abderrahmane L. Idrissi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsrsasign": "^10.8.6",
+    "socket.io-client": "^4.6.2",
+    "tl-api": "^1.0.0"
+  }
+}
